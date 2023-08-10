@@ -1,3 +1,45 @@
+ //Array
+ //essa váriavel array vai receber somente numeros:Array pra mostrar que é array <pra indicar o tipo do array>
+// const array: Array<number> =[1, 2,3,4]
+
+ //forEach para buscar os elementos no array
+ // array.forEach(num => {
+ //     if(num >2)
+ //     console.log(num)
+ // })
+ // A diferença deles é perfomatica | MAP é mais usado para funções assincronas e o foreach passa por cima de função assincrona
+// array.map(num => console.log(num))
+
+
+
+// const stringArray:string[] = ['a','b','c']
+
+// const buscaNum = array.find(num => num === 4)
+
+// console.log(buscaNum)
+
+// console.log(array[0])
+
+// console.log(stringArray.length) para verificar quantos elementos tem nesse array
+
+// console.log('array original', array)
+// array.push(3) // colocar um novo elemento
+// array.pop() // tirar o ultimo elemento
+// console.log('array com novo elemento', array)
+
+
+//Estrutura de repetição
+
+// for(let i =0; i <5; i++){
+//     console.log(i)
+// }
+
+// let n  = 2
+
+// while(n < 6){
+// console.log(n)
+// n++
+// }
 //Decisoes e Repeticoes
 
 // const num:number = 16
@@ -9,19 +51,19 @@
 //     console.log('Num menor que 15')
 // }
 
-const typeUser = {
-    admin: 'Seja Bem-Vindo admin',
-    student: 'Seja Bem-Vindo Estudante',
-    viewer: 'Vizualizando'
-}
+// const typeUser = {
+//     admin: 'Seja Bem-Vindo admin',
+//     student: 'Seja Bem-Vindo Estudante',
+//     viewer: 'Vizualizando'
+// }
 
-function validateUser(user:string){
-    console.log(typeUser[user as keyof typeof typeUser]) // [serve para mostra aonde vai manipular] e está falando que essa variavel de usuario pode usar o typeUser
-}
+// function validateUser(user:string){
+//     console.log(typeUser[user as keyof typeof typeUser]) // [serve para mostra aonde vai manipular] e está falando que essa variavel de usuario pode usar o typeUser
+// }
 
-const usuario = 'admin'
+// const usuario = 'admin'
 
-validateUser(usuario)
+// validateUser(usuario)
 
 //Objetos
 //interface faz um parametro para quando ela chamar para receber :Pessoa que caso não tenha nome e idade ira retorna erro
