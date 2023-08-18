@@ -1,3 +1,24 @@
+class User {
+    name: string = 'Denis'
+    age: number = 23
+
+    constructor(name: string, age: number){
+        this.name = name,
+        this.age = age
+
+    }
+
+    showName = () => {
+        console.log(this.name)
+    }
+}
+
+const user = new User('Denis', 32)
+user.showName()
+
+const otherUser = new User('Ribeiro', 23)
+otherUser.showName()
+ 
  //Array
  //essa váriavel array vai receber somente numeros:Array pra mostrar que é array <pra indicar o tipo do array>
 // const array: Array<number> =[1, 2,3,4]
